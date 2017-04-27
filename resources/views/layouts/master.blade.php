@@ -1,4 +1,5 @@
-<!DOCTYPE html><!-- Scripts -->
+<!DOCTYPE html>
+        <!-- Scripts -->
         <script>
             window.Laravel = {!! json_encode([
                 'csrfToken' => csrf_token(),
@@ -6,12 +7,6 @@
         </script>
 <html>
 <head>
-  <!-- Scripts -->
-  <script>
-    window.Laravel = {!! json_encode([
-      'csrfToken' => csrf_token(),
-    ]) !!};
-  </script>
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta charset="utf-8">
   <title></title>
